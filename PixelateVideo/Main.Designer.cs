@@ -1,6 +1,6 @@
 ﻿namespace PixelateVideo
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -113,6 +113,7 @@
             this.pixelateButton.TabIndex = 8;
             this.pixelateButton.Text = "Pixelate!";
             this.pixelateButton.UseVisualStyleBackColor = true;
+            this.pixelateButton.Click += new System.EventHandler(this.pixelateButton_Click);
             // 
             // splitLabel
             // 
@@ -131,7 +132,7 @@
             this.splitInput.TabIndex = 10;
             this.splitInput.Text = "all";
             // 
-            // Form1
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -147,7 +148,7 @@
             this.Controls.Add(this.pixelatorLabel);
             this.Controls.Add(this.outputLabel);
             this.Controls.Add(this.videoLabel);
-            this.Name = "Form1";
+            this.Name = "Main";
             this.Text = "PixelateVideo";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
