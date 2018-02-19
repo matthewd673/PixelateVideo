@@ -1,6 +1,12 @@
 ## I don't want to deal with distributing FFMPEG, so download it yourself
 ffmpeg.exe
 
+## Ignore the test video I use
+testvid.*
+
+## Ignore any test output too
+testout/
+
 ## The rest of this comes courtesy of GitHub
 
 ## Ignore Visual Studio temporary files, build results, and

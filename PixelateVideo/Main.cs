@@ -34,9 +34,12 @@ namespace PixelateVideo
                 MessageBox.Show("Can't pixelate with missing information! Please fill out all necessary information.", "Missing Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
             else
             {
+
+                string ffmpegCommand = "-i testvid.webm testout\\temp%03d.png";
+
                 ProcessStartInfo startInfo = new ProcessStartInfo();
                 startInfo.FileName = "ffmpeg.exe";
-                startInfo.Arguments = "-h";
+                startInfo.Arguments = ffmpegCommand;
                 startInfo.UseShellExecute = false;
                 startInfo.RedirectStandardOutput = true;
 
