@@ -102,6 +102,7 @@
             this.argumentInput.Name = "argumentInput";
             this.argumentInput.Size = new System.Drawing.Size(202, 20);
             this.argumentInput.TabIndex = 7;
+            this.argumentInput.TextChanged += new System.EventHandler(this.argumentInput_TextChanged);
             // 
             // pixelateButton
             // 

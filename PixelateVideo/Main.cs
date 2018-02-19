@@ -27,9 +27,15 @@ namespace PixelateVideo
         {
             if (!File.Exists("ffmpeg.exe"))
             {
-                MessageBox.Show("FFMPEG is missing! Please read the instructions provided in the README.md document packaged with this software to install it, then try again.", "FFMPEG Not Found", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("FFMPEG is missing! You can aquire a new copy from https://ffmpeg.zeranoe.com/builds/.", "FFMPEG Not Found", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Application.Exit();
             }
+
+            if (File.Exists(@"C:\Program Files (x86)\pixelator\_pixelator_cmd.exe")) //this is the default install path, where most probably have it
+                pixelatorInput.Text = @"C:\Program Files (x86)\pixelator\_pixelator_cmd.exe";
+
+            argumentInput.Text = Properties.Settings.Default.lastArguments;
+
         }
 
         private void pixelateButton_Click(object sender, EventArgs e)
@@ -68,7 +74,7 @@ namespace PixelateVideo
             Invoke(output, "Preparing to split");
 
             //prep split command
-            string ffmpegCommand = "-i " + videoInput.Text + " splitout\\temp%03d.png";
+            string ffmpegCommand = "-i \"" + videoInput.Text + "\" splitout\\temp%03d.png";
 
             ProcessStartInfo ffmpegStartInfo = new ProcessStartInfo();
             ffmpegStartInfo.FileName = "ffmpeg.exe";
@@ -133,6 +139,14 @@ namespace PixelateVideo
             Invoke(output, "Finishing up");
 
             Invoke(hide);
+
+            MessageBox.Show("You still there? The video has finished processing!", "All Done!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void argumentInput_TextChanged(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.lastArguments = argumentInput.Text;
+            Properties.Settings.Default.Save();
         }
     }
 }
