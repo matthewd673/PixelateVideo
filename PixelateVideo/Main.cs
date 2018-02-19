@@ -67,6 +67,13 @@ namespace PixelateVideo
 
             Invoke(output, "Getting ready");
 
+            //do this early so it won't pause later steps
+            if (!Directory.Exists(outputInput.Text))
+            {
+                MessageBox.Show("Your output directory doesn't exist. It will be created.", "Output Directory Missing", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Directory.CreateDirectory(outputInput.Text);
+            }
+
             //create splitout folder if one doesn't exist
             if (!Directory.Exists("splitout"))
                 Directory.CreateDirectory("splitout");
