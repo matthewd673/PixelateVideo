@@ -127,6 +127,8 @@
             this.Controls.Add(this.pixelatorLabel);
             this.Controls.Add(this.outputLabel);
             this.Controls.Add(this.videoLabel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Main";
             this.Text = "PixelateVideo";
             this.Load += new System.EventHandler(this.Form1_Load);
