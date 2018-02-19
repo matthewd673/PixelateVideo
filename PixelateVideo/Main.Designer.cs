@@ -37,8 +37,6 @@
             this.argumentsLabel = new System.Windows.Forms.Label();
             this.argumentInput = new System.Windows.Forms.TextBox();
             this.pixelateButton = new System.Windows.Forms.Button();
-            this.splitLabel = new System.Windows.Forms.Label();
-            this.splitInput = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // videoLabel
@@ -107,7 +105,7 @@
             // 
             // pixelateButton
             // 
-            this.pixelateButton.Location = new System.Drawing.Point(110, 145);
+            this.pixelateButton.Location = new System.Drawing.Point(110, 112);
             this.pixelateButton.Name = "pixelateButton";
             this.pixelateButton.Size = new System.Drawing.Size(118, 49);
             this.pixelateButton.TabIndex = 8;
@@ -115,30 +113,11 @@
             this.pixelateButton.UseVisualStyleBackColor = true;
             this.pixelateButton.Click += new System.EventHandler(this.pixelateButton_Click);
             // 
-            // splitLabel
-            // 
-            this.splitLabel.AutoSize = true;
-            this.splitLabel.Location = new System.Drawing.Point(12, 115);
-            this.splitLabel.Name = "splitLabel";
-            this.splitLabel.Size = new System.Drawing.Size(207, 13);
-            this.splitLabel.TabIndex = 9;
-            this.splitLabel.Text = "Split Video Into X Frames (\"all\" or number):";
-            // 
-            // splitInput
-            // 
-            this.splitInput.Location = new System.Drawing.Point(225, 112);
-            this.splitInput.Name = "splitInput";
-            this.splitInput.Size = new System.Drawing.Size(98, 20);
-            this.splitInput.TabIndex = 10;
-            this.splitInput.Text = "all";
-            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(338, 207);
-            this.Controls.Add(this.splitInput);
-            this.Controls.Add(this.splitLabel);
+            this.ClientSize = new System.Drawing.Size(338, 167);
             this.Controls.Add(this.pixelateButton);
             this.Controls.Add(this.argumentInput);
             this.Controls.Add(this.argumentsLabel);
@@ -167,8 +146,6 @@
         private System.Windows.Forms.Label argumentsLabel;
         private System.Windows.Forms.TextBox argumentInput;
         private System.Windows.Forms.Button pixelateButton;
-        private System.Windows.Forms.Label splitLabel;
-        private System.Windows.Forms.TextBox splitInput;
     }
 }
 

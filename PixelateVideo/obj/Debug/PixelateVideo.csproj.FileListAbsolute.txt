@@ -7,3 +7,5 @@ C:\Users\Matthew\Documents\Visual Studio 2017\Projects\PixelateVideo\PixelateVid
 C:\Users\Matthew\Documents\Visual Studio 2017\Projects\PixelateVideo\PixelateVideo\obj\Debug\PixelateVideo.exe
 C:\Users\Matthew\Documents\Visual Studio 2017\Projects\PixelateVideo\PixelateVideo\obj\Debug\PixelateVideo.pdb
 C:\Users\Matthew\Documents\Visual Studio 2017\Projects\PixelateVideo\PixelateVideo\obj\Debug\PixelateVideo.Main.resources
+C:\Users\Matthew\Documents\Visual Studio 2017\Projects\PixelateVideo\PixelateVideo\obj\Debug\PixelateVideo.csprojResolveAssemblyReference.cache
+C:\Users\Matthew\Documents\Visual Studio 2017\Projects\PixelateVideo\PixelateVideo\obj\Debug\PixelateVideo.Loading.resources

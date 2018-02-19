@@ -5,6 +5,7 @@ ffmpeg.exe
 testvid.*
 
 ## Ignore any test output too
+splitout/
 testout/
 
 ## The rest of this comes courtesy of GitHub
