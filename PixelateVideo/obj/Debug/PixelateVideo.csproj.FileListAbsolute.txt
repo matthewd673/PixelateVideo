@@ -1,0 +1,10 @@
+C:\Users\Matthew\Documents\Visual Studio 2017\Projects\PixelateVideo\PixelateVideo\bin\Debug\PixelateVideo.exe.config
+C:\Users\Matthew\Documents\Visual Studio 2017\Projects\PixelateVideo\PixelateVideo\bin\Debug\PixelateVideo.exe
+C:\Users\Matthew\Documents\Visual Studio 2017\Projects\PixelateVideo\PixelateVideo\bin\Debug\PixelateVideo.pdb
+C:\Users\Matthew\Documents\Visual Studio 2017\Projects\PixelateVideo\PixelateVideo\obj\Debug\PixelateVideo.csprojResolveAssemblyReference.cache
+C:\Users\Matthew\Documents\Visual Studio 2017\Projects\PixelateVideo\PixelateVideo\obj\Debug\PixelateVideo.Form1.resources
+C:\Users\Matthew\Documents\Visual Studio 2017\Projects\PixelateVideo\PixelateVideo\obj\Debug\PixelateVideo.Properties.Resources.resources
+C:\Users\Matthew\Documents\Visual Studio 2017\Projects\PixelateVideo\PixelateVideo\obj\Debug\PixelateVideo.csproj.GenerateResource.Cache
+C:\Users\Matthew\Documents\Visual Studio 2017\Projects\PixelateVideo\PixelateVideo\obj\Debug\PixelateVideo.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\Documents\Visual Studio 2017\Projects\PixelateVideo\PixelateVideo\obj\Debug\PixelateVideo.exe
+C:\Users\Matthew\Documents\Visual Studio 2017\Projects\PixelateVideo\PixelateVideo\obj\Debug\PixelateVideo.pdb
